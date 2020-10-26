@@ -25,3 +25,7 @@ insert into tb_alunoEscola(nome, RA, Mae, Nota, Curso, Periodo, Sala)
 values ("Antony", 186, "Joana", 9, "Enfermagem", "Tarde", 1);
 
 select *, Nota >= 7,Nota < 7 from tb_alunoEscola;
+
+update tb_alunoEscola
+set curso = ("Fisiologia")
+where id = 4;

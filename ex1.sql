@@ -25,3 +25,7 @@ insert into tb_dados_funcionarios ( nome, salario, cargo, ferias) values ( "Carl
 select *, salario >= 2000 from tb_dados_funcionarios;
 select *, salario < 2000 from tb_dados_funcionarios;
 
+update tb_dados_funcionarios
+set salario = (1800)
+where id = 1;
+

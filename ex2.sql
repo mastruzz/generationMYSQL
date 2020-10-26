@@ -27,6 +27,10 @@ select * from tb_ecommerce;
 
 select *, preco < 500.00, preco >= 500.00 from tb_ecommerce;
 
+update tb_ecommerce
+set marca = ("Candide")
+where id = 1;
+
 
 
 
