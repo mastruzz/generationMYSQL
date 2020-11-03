@@ -27,7 +27,7 @@ quantidade int,
 categoria_id bigint,
 primary key (id),
 foreign key(categoria_id) 
-references tb_categoria (id)
+	references tb_categoria (id)
 );
 
 insert into tb_produto(nome, preco, quantidade, categoria_id)

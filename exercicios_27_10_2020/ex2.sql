@@ -63,7 +63,7 @@ insert into tb_produto(nome,marca, quantidade, preco, categoria_id)
 insert into tb_produto(nome,marca, quantidade, preco, categoria_id)
 	values("Carrinho", "Hotweels", 100, 10.00, 5);
     
-    
+select * from tb_produto;
 select * from tb_produto where preco > 2000;
 select * from tb_produto where preco > 1000 && preco < 2000;
 select * from tb_produto where nome like "%c%";
